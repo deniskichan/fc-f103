@@ -1,4 +1,4 @@
-This is my STM32F103 (Blue Pill) simplified flight controller firmware project.
+## This is my STM32F103 (Blue Pill) simplified flight controller firmware project.
 
 The goal is to build a simplified version of flight controller using:
 - STM32CubeIDE
