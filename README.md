@@ -48,4 +48,14 @@ I'm building this to better understand:
 - Interrupt-driven data acquisition
 - Basic orientation estimation
 
+## Technical notes
 
+### Filter tau choice
+
+The current tau value was chosen as a balance between responsiveness and noise filtering.  
+Lower tau makes the output more responsive but noisier; higher tau smooths noise but feels delayed.
+
+### Known limitation near large angles
+
+When pitch gets close to ±90°, roll estimation becomes unstable due to the sensor orientation and complementary algorithm.  
+This may cause glitches in roll output near vertical orientations.
