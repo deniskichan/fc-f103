@@ -10,7 +10,7 @@ Right now the firmware reads IMU data, processes orientation (roll & pitch),
 and prints values over UART for debugging.
 
 What's implemented:
--I2C communication with MPU6050
+- I2C communication with MPU6050
 -External interrupt from MPU6050
 -FreeRTOS with multiple tasks
 -Queue between sensor task and orientation task
